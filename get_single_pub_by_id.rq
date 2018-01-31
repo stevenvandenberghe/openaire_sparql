@@ -1,0 +1,4 @@
+PREFIX oav: <http://lod.openaire.eu/vocab/>
+SELECT distinct ?publication WHERE {
+?publication oav:resOpenaireID 'doajarticles::82cef4b28c1c041d7f029e58b5d6211e'
+}
